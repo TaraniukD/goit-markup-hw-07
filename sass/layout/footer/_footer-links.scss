@@ -1,0 +1,22 @@
+.link-block {
+    margin-left: 70px;
+    width: 206px;
+}
+
+.icon-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    @include fonts (700, 14, 1.14);
+    color: var(--Wite-text-color);
+    text-transform: uppercase; 
+}
+
+
+.footer-soc-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
